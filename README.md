@@ -30,7 +30,11 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+    React JS is a javascript library. It helps with creating larger applications that have data changes more frequently. An example would be the company that made it Facebook. Since the UI for Facebook is always changing with posts and likes and comments it makes it easier for the data from so many different user inputs to be implemented correctly and to trim the unnecessary fat with reloading all that information onto the page.
+
 1. Describe component state.
+
+    
 
 1. Describe props.
 
