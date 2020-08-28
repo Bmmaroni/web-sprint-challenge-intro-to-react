@@ -32,13 +32,17 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
     React JS is a javascript library. It helps with creating larger applications that have data changes more frequently. An example would be the company that made it Facebook. Since the UI for Facebook is always changing with posts and likes and comments it makes it easier for the data from so many different user inputs to be implemented correctly and to trim the unnecessary fat with reloading all that information onto the page.
 
-1. Describe component state.
+2. Describe component state.
 
-    
+    Component state is the object state of a component. It stores the information of the component such as its property values. Everytime the data stored in state changes the component re-renders. Component state is like homeostasis for the component. It is the source of truth.
 
-1. Describe props.
+3. Describe props.
 
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+    Props is short for properties. It refers to all the properties within the component and they are used to pass data from one component to another.
+
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+    Side effects refers to anything that effects something outside the scope of the function in which it is being executed, such as an api request through axios. Through the use of the effect hook we can sync effects to the changes of certain state or props.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
