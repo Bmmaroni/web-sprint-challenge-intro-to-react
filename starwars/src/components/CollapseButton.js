@@ -8,10 +8,10 @@ const CollapseButton = (props) => {
 
     return (
         <div>
-            <Button onClick={toggle}> {props.name} </Button>
+            <Button onClick={toggle} style={styles.button}> {props.name} </Button>
             <Collapse isOpen={isOpen}>
                 <Card>
-                    <CardBody>
+                    <CardBody style={styles.body}>
                         <CardText> Born: {props.birthYear} </CardText>
                         <CardText> Eye Color: {props.eyeColor} </CardText>
                         <CardText> Gender: {props.gender} </CardText>
@@ -27,7 +27,12 @@ const CollapseButton = (props) => {
 }
 
 const styles = {
-    CollapseText: {
+    button: {
+        backgroundColor: 'purple'
+    },
+
+    body: {
+        backgroundColor: 'transparent'
     }
   };
 

@@ -15,6 +15,8 @@ const Character = (props) => {
                 height= {props.height} 
                 mass= {props.mass} 
                 skinColor= {props.skinColor}
+
+                style={{margin: '100px'}}
             />
         </div>
     )
