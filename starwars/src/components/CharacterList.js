@@ -8,10 +8,10 @@ const CharacterList = () => {
 
     useEffect(() => {
         axios
-            .get(``)
+            .get(`https://swapi.dev/api/people/`)
             .then( res => {
-                console.log('Res: ', res.data);
-                setCharacters();
+                console.log('Res: ', res);
+                setCharacters(res.data.results);
             })
             .catch( err => {
                 console.log('Error Occured: ', err);

@@ -1,6 +1,5 @@
 import React from 'react';
 import CharacterList from './components/CharacterList';
-
 import './App.css';
 
 const App = () => {
