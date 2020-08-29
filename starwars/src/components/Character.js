@@ -1,20 +1,20 @@
 // Write your Character component here
 import React from 'react';
-import FadeButton from './FadeButton';
+import CollapseButton from './CollapseButton';
 
 const Character = (props) => {
     
     return (
         <div>
-            <FadeButton 
+            <CollapseButton 
                 name= {props.name}
-                birthYear= {props.birth_year} 
-                eyeColor= {props.eye_color} 
+                birthYear= {props.birthYear} 
+                eyeColor= {props.eyeColor} 
                 gender= {props.gender} 
-                hairColor= {props.hair_color} 
+                hairColor= {props.hairColor} 
                 height= {props.height} 
                 mass= {props.mass} 
-                skinColor= {props.skin_color}
+                skinColor= {props.skinColor}
             />
         </div>
     )
