@@ -20,18 +20,21 @@ const CharacterList = () => {
     
     return (
         <div>
-            {characters.map(character => {
+            {characters.map((character, index) => {
                 return (
-                    <Character
-                        name= {character.name}
-                        birthYear= {character.birth_year} 
-                        eyeColor= {character.eye_color} 
-                        gender= {character.gender} 
-                        hairColor= {character.hair_color} 
-                        height= {character.height} 
-                        mass= {character.mass} 
-                        skinColor= {character.skin_color}
-                    />
+                    <div>
+                        <Character
+                            key={index}
+                            name= {character.name}
+                            birthYear= {character.birth_year} 
+                            eyeColor= {character.eye_color} 
+                            gender= {character.gender} 
+                            hairColor= {character.hair_color} 
+                            height= {character.height} 
+                            mass= {character.mass} 
+                            skinColor= {character.skin_color}
+                        />
+                    </div>
                 )
             })};
         </div>
