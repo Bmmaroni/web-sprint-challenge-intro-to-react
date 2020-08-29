@@ -22,17 +22,15 @@ const CharacterList = () => {
         <div>
             {characters.map(character => {
                 return (
-                    <Character 
+                    <Character
+                        name= {character.name}
                         birthYear= {character.birth_year} 
                         eyeColor= {character.eye_color} 
                         gender= {character.gender} 
                         hairColor= {character.hair_color} 
                         height= {character.height} 
-                        homeworld= {character.homeworld} 
                         mass= {character.mass} 
-                        name= {character.name} 
-                        skinColor= {character.skin_color} 
-                        species= {character.species}
+                        skinColor= {character.skin_color}
                     />
                 )
             })};
